@@ -4,6 +4,7 @@ import Login from "./components/LoggedIn";
 import Listings from "./components/Listings";
 import AddListing from "./components/Add";
 import cookie from "cookie";
+// here is a comment
 
 const checkAuth = () => {
   const cookies = cookie.parse(document.cookie);
